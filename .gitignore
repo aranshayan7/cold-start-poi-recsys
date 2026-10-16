@@ -1,0 +1,18 @@
+.DS_Store
+__pycache__/
+*.pyc
+~$*
+data/
+processed*/
+checkpoints*/
+logs*/
+MELU_*/
+IMETAGNN*/
+*.pkl
+*.parquet
+*.pt
+*.pth
+webapp/users.json
+webapp/
+
+# small thesis result files are tracked on purpose (ablation_results/*.json, model_results_*.xlsx)
