@@ -1,0 +1,46 @@
+{
+ "tag": "localpop_none_k10_s2",
+ "args": {
+  "data": "data",
+  "out": "results",
+  "learner": "localpop",
+  "ablation": "none",
+  "k": 10,
+  "k_max": 10,
+  "q": 20,
+  "seed": 2,
+  "epochs": 15,
+  "patience": 3,
+  "batch": 16,
+  "lr": 0.001,
+  "alpha_in": 0.001,
+  "tau": 0.05,
+  "social_w": 0.25,
+  "n_friends": 3,
+  "neg_per_pos": 100,
+  "local_pool": 5000,
+  "n_val": 400,
+  "train_neg": "uniform",
+  "threads": 2
+ },
+ "test": {
+  "global": {
+   "NDCG@10": 0.29515758133786374,
+   "Recall@10": 0.1328154724159797,
+   "NDCG@20": 0.24622044120136377,
+   "Recall@20": 0.21090678503487637
+  },
+  "local": {
+   "NDCG@10": 0.10035423101247404,
+   "Recall@10": 0.04140773620798986,
+   "NDCG@20": 0.08116757342299402,
+   "Recall@20": 0.06445783132530121
+  },
+  "full": {
+   "NDCG@10": 0.06539722402050611,
+   "Recall@10": 0.026093849080532656,
+   "NDCG@20": 0.05187245205659504,
+   "Recall@20": 0.03963221306277743
+  }
+ }
+}
