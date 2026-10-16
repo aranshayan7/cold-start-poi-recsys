@@ -1,0 +1,41 @@
+{
+  "model": "IMETA-GNN+POI+Social",
+  "dataset": "C:\\Users\\niloz\\PycharmProjects\\Tourism_ProtoNet\\processed_japan_v2",
+  "config": {
+    "alpha": 0.001,
+    "beta": 0.001,
+    "T": 4,
+    "support_k": 10,
+    "query_size": 25,
+    "embed_dim": 64,
+    "dropout": 0.3,
+    "max_vocab": 100000,
+    "temperature": 0.05,
+    "n_categories": 64,
+    "social_weight": 0.25,
+    "n_epochs": 20,
+    "patience": 5,
+    "top_k_list": [
+      10,
+      20
+    ],
+    "seed": 42,
+    "device": "cuda"
+  },
+  "val_metrics": {
+    "Precision@10": 0.28250000000000003,
+    "Recall@10": 0.18128268779761242,
+    "NDCG@10": 0.3401596510791783,
+    "Precision@20": 0.1915625,
+    "Recall@20": 0.24215061582710112,
+    "NDCG@20": 0.29646127093308566
+  },
+  "test_metrics": {
+    "Precision@10": 0.25377030162412995,
+    "Recall@10": 0.16483065050538662,
+    "NDCG@10": 0.30992435427904574,
+    "Precision@20": 0.18042343387470994,
+    "Recall@20": 0.23204448969478447,
+    "NDCG@20": 0.27682063925294137
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Random",
+    "n_eval": 500,
+    "metrics": {
+      "Precision@10": 0.0,
+      "Recall@10": 0.0,
+      "NDCG@10": 0.0,
+      "Precision@20": 0.0,
+      "Recall@20": 0.0,
+      "NDCG@20": 0.0
+    }
+  },
+  {
+    "name": "Popularity",
+    "n_eval": 500,
+    "metrics": {
+      "Precision@10": 0.0,
+      "Recall@10": 0.0,
+      "NDCG@10": 0.0,
+      "Precision@20": 0.0,
+      "Recall@20": 0.0,
+      "NDCG@20": 0.0
+    }
+  },
+  {
+    "name": "Social-Popularity",
+    "n_eval": 500,
+    "metrics": {
+      "Precision@10": 0.0,
+      "Recall@10": 0.0,
+      "NDCG@10": 0.0,
+      "Precision@20": 0.0,
+      "Recall@20": 0.0,
+      "NDCG@20": 0.0
+    }
+  }
+]
